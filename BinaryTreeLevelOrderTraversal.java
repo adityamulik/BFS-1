@@ -4,7 +4,12 @@ public class BinaryTreeLevelOrderTraversal {
     List<List<Integer>> result;	
 
     public List<List<Integer>> levelOrder(TreeNode root) {
-        
+        /*
+         *
+         * Time Complexity: O(n) as we loop over entire tree and access each element
+         * Space Complexity: O(n) as queue is used to store each element
+         *
+         */
 	result = new ArrayList<>();
 	Queue<TreeNode> q = new LinkedList<>();
 
